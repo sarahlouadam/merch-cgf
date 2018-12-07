@@ -2,18 +2,19 @@
 <html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
+
 h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
 body {font-family: "Open Sans"}
 </style>
 <body class="w3-light-grey">
 
 <!-- Navigation bar with social media icons -->
-<div class="w3-bar w3-black w3-hide-small">
+<div class="w3-bar w3-red w3-hide-small">
   <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
   <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
   <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
@@ -30,33 +31,83 @@ and is wrapped around the whole page content, except for the footer in this exam
   <!-- Header -->
   <header class="w3-container w3-center w3-padding-48 w3-white">
     <h1 class="w3-xxxlarge"><b>CGF Merch</b></h1>
-    <h6>Welcome to the CFG Merch Page</span></h6>
-  </header>
+    <h6>Welcome to the CFG Merch Page
+
+    <h1 background="girl.png">
+
+      <h6> <aside><a href="about.html">About us</a></aside> <a href="index.html">Buy your merch</a> <aside> <a href="beg.html">Bonus page!</a></aside> </h6>
+
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="girl.png" style="margin-top: 30px;" align="centre" style="opacity:60;"/>
+
+
+    </span></h6>
+
 
       <div class="w3-white w3-margin">
-        <div class="w3-container w3-padding w3-black">
-          <h4>Follow Me</h4>
+        <div class="w3-container w3-padding w3-red">
+          <h4>Our beautiful merchandise! </h4>
         </div>
-        <div class="w3-container w3-xlarge w3-padding">
-          <i class="fa fa-facebook-official w3-hover-opacity"></i>
-          <i class="fa fa-instagram w3-hover-opacity"></i>
-          <i class="fa fa-snapchat w3-hover-opacity"></i>
-          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-          <i class="fa fa-twitter w3-hover-opacity"></i>
-          <i class="fa fa-linkedin w3-hover-opacity"></i>
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="tshirt.png" style="margin-top: 60px;" align="centre">
+          </div>
+
+          <div class="w3-container w3-white">
+
+            <p><button type="button" style="width: 100%" align="centre" class="w3-button w3-block w3-green"> Add to cart </button></p>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="bag.png" style="margin-top: 60px;" align="centre">
+          </div>
+
+          <div class="w3-container w3-white">
+
+            <p><button type="button" style="width: 100%" align="centre" class="w3-button w3-block w3-green"> Add to cart </button></p>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="keyboard.png" style="margin-top: 60px;" align="centre">
+
+            <div class="w3-container w3-white">
+
+              <p><button type="button" style="width: 100%" align="centre" class="w3-button w3-block w3-green"> Add to cart </button></p>
+            </div>
+          </div>
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        </head>
+        <body>
+
+        </body>
+        </html>
         </div>
       </div>
       <hr>
 
       <!-- Subscribe -->
       <div class="w3-white w3-margin">
-        <div class="w3-container w3-padding w3-black">
+        <div class="w3-container w3-padding w3-red">
           <h4>Subscribe</h4>
         </div>
         <div class="w3-container w3-white">
           <p>Enter your e-mail below and get notified on the latest blog posts.</p>
           <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
-          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Subscribe</button></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-green">Subscribe</button></p>
         </div>
       </div>
 
@@ -84,8 +135,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 <!-- Footer -->
 <footer class="w3-container w3-dark-grey" style="padding:32px">
-  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  <a href="#" class="w3-button w3-red w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
 </footer>
 
 <script>
